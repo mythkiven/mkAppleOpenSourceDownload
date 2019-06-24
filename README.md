@@ -3,23 +3,16 @@ a clone of the Apple's website
 
 **This repository is a mirror image of the apple opensource website (opensource.apple.com) and contains all opensource code**
 
-The directory of this repository is as follows. The tarballs directory contains all the compressed backups. Since the size is more than 5GB, it is not uploaded. If you need all the source code, please contact us or contact me.
+The tarballs directory contains all the compressed backups. Since the size is more than 10GB, it is not uploaded. If you need all the source code, please contact me.
 
-Directory as follows
+
+eg:
+If you are looking for the source code for dyld-353.2.3, go to the `opensource.apple.com/source/dyld/dyld-353.2.3` directory.
+
+
+>The included source code is as follows
+
 ```
-.
-├── icons
-│   ├── back.gif
-│   └── blank.gif
-├── index.html
-├── plist
-│   ├── macos-1014.plist
-│   └── macos-10141.plist
-├── release
-│   ├── developer-tools-100.html
-│   ├─...
-│  
-├── source
 │   ├── Apple16X50Serial
 │   ├── Apple3Com3C90x
 │   ├── AppleAC97Audio
@@ -529,15 +522,4 @@ Directory as follows
 │   ├── zlib
 │   ├── zlibold
 │   └── zsh
-├── static
-│   ├── css
-│   ├── devimages
-│   ├── images
-│   └── js
-├── tarballs
-│   ├── AppleFileSystemDriver
-│   ├──...
-└── text
-    ├── macos-1014.txt
-    └...
 ```
