@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F9ED4C920630A73900DF4E74 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9D8C7E5087B087300E93EFB /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F9ED4CA70630A78A00DF4E74 /* PBXTargetDependency */,
+				F9ED4CA90630A78A00DF4E74 /* PBXTargetDependency */,
+				F93937380A94FB6A00070A07 /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EF79A010070D293E00F78484 /* dyld.1 in usr|share|man|man1 */ = {isa = PBXBuildFile; fileRef = EF799FE9070D27BB00F78484 /* dyld.1 */; };
+		EF79A011070D295200F78484 /* dladdr.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FEB070D27BB00F78484 /* dladdr.3 */; };
+		EF79A012070D295200F78484 /* dlclose.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FEC070D27BB00F78484 /* dlclose.3 */; };
+		EF79A013070D295200F78484 /* dlerror.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FED070D27BB00F78484 /* dlerror.3 */; };
+		EF79A014070D295200F78484 /* dlopen.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FEE070D27BB00F78484 /* dlopen.3 */; };
+		EF79A015070D295200F78484 /* dlsym.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FEF070D27BB00F78484 /* dlsym.3 */; };
+		EF79A016070D295200F78484 /* dyld.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = EF799FF0070D27BB00F78484 /* dyld.3 */; };
+		F906E2240639E96400B13DB2 /* dyld_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = F906E2230639E96400B13DB2 /* dyld_debug.c */; };
+		F913FADA0630A8AE00B7AE9D /* dyldAPIsInLibSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F913FAD90630A8AE00B7AE9D /* dyldAPIsInLibSystem.cpp */; };
+		F918691608B16D3500E0F9DB /* dyld-interposing.h in usr|local|include|mach-o */ = {isa = PBXBuildFile; fileRef = F918691408B16D2500E0F9DB /* dyld-interposing.h */; };
+		F93937470A94FC4700070A07 /* update_dyld_shared_cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F93937460A94FC4700070A07 /* update_dyld_shared_cache.cpp */; };
+		F93AA9A30630AE1E00301D9F /* dyld_gdb.h in usr|local|include|mach-o */ = {isa = PBXBuildFile; fileRef = F9ED4CE80630A80600DF4E74 /* dyld_gdb.h */; };
+		F93AA9A40630AE1E00301D9F /* dyld_priv.h in usr|local|include|mach-o */ = {isa = PBXBuildFile; fileRef = F9ED4CE90630A80600DF4E74 /* dyld_priv.h */; };
+		F93AA9A50630AE1E00301D9F /* dyld.h in usr|include|mach-o */ = {isa = PBXBuildFile; fileRef = F9ED4CEA0630A80600DF4E74 /* dyld.h */; };
+		F94DB9040F0A9B1700323715 /* ImageLoaderMachOClassic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94DB9000F0A9B1700323715 /* ImageLoaderMachOClassic.cpp */; };
+		F94DB9050F0A9B1700323715 /* ImageLoaderMachOCompressed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94DB9020F0A9B1700323715 /* ImageLoaderMachOCompressed.cpp */; settings = {COMPILER_FLAGS = "-O3"; }; };
+		F9574CB306C95C1B00142BFA /* dlfcn.h in usr|include */ = {isa = PBXBuildFile; fileRef = F99EE6AE06B48D4200BF1992 /* dlfcn.h */; };
+		F98C78F00F7C02E8006257D2 /* dsc_iterator.h in usr|local|include|mach-o */ = {isa = PBXBuildFile; fileRef = F9F2A56F0F7AEEE300B7C9EB /* dsc_iterator.h */; };
+		F98D274D0AA79D7400416316 /* dyld_images.h in usr|include|mach-o */ = {isa = PBXBuildFile; fileRef = F98D274C0AA79D7400416316 /* dyld_images.h */; };
+		F99EFC0E0EAD60E8001032B8 /* dyld_stub_binder.s in Sources */ = {isa = PBXBuildFile; fileRef = F99EFC0D0EAD60E8001032B8 /* dyld_stub_binder.s */; };
+		F9A221E70F3A6D7C00D15F73 /* dyldLibSystemGlue.c in Sources */ = {isa = PBXBuildFile; fileRef = F9A221E60F3A6D7C00D15F73 /* dyldLibSystemGlue.c */; };
+		F9AC7E940B7BB67700FEB38B /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = F9AC7E930B7BB67700FEB38B /* version.c */; };
+		F9BA514B0ECE4F4200D1D62E /* dyld_stub_binder.s in Sources */ = {isa = PBXBuildFile; fileRef = F99EFC0D0EAD60E8001032B8 /* dyld_stub_binder.s */; };
+		F9D238DB0A9E2FD0002B55C7 /* update_dyld_shared_cache.1 in usr|share|man|man1 */ = {isa = PBXBuildFile; fileRef = F9D238D90A9E19A0002B55C7 /* update_dyld_shared_cache.1 */; };
+		F9E572020A66EF4A007D9BE9 /* dlopen_preflight.3 in usr|share|man|man3 */ = {isa = PBXBuildFile; fileRef = F9E572000A66EF41007D9BE9 /* dlopen_preflight.3 */; };
+		F9ED4CD60630A7F100DF4E74 /* dyld_gdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CC60630A7F100DF4E74 /* dyld_gdb.cpp */; };
+		F9ED4CD70630A7F100DF4E74 /* dyld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CC70630A7F100DF4E74 /* dyld.cpp */; };
+		F9ED4CD90630A7F100DF4E74 /* dyldAPIs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CC90630A7F100DF4E74 /* dyldAPIs.cpp */; };
+		F9ED4CDA0630A7F100DF4E74 /* dyldExceptions.c in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CCA0630A7F100DF4E74 /* dyldExceptions.c */; };
+		F9ED4CDB0630A7F100DF4E74 /* dyldInitialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CCB0630A7F100DF4E74 /* dyldInitialization.cpp */; };
+		F9ED4CDE0630A7F100DF4E74 /* dyldNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CCE0630A7F100DF4E74 /* dyldNew.cpp */; };
+		F9ED4CDF0630A7F100DF4E74 /* dyldStartup.s in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CCF0630A7F100DF4E74 /* dyldStartup.s */; };
+		F9ED4CE00630A7F100DF4E74 /* glue.c in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CD00630A7F100DF4E74 /* glue.c */; };
+		F9ED4CE10630A7F100DF4E74 /* ImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CD10630A7F100DF4E74 /* ImageLoader.cpp */; };
+		F9ED4CE30630A7F100DF4E74 /* ImageLoaderMachO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CD30630A7F100DF4E74 /* ImageLoaderMachO.cpp */; };
+		F9ED4CE50630A7F100DF4E74 /* stub_binding_helper.s in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CD50630A7F100DF4E74 /* stub_binding_helper.s */; };
+		F9F256360639DBCC00A7427D /* dyldLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9ED4CCC0630A7F100DF4E74 /* dyldLock.cpp */; };
+		F9F2A5700F7AEEE300B7C9EB /* dsc_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F2A56E0F7AEEE300B7C9EB /* dsc_iterator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F921D3160703769A000D1056 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.cpp;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		F921D317070376A6000D1056 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		F921D318070376B0000D1056 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.asm;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		F921D31E070376F1000D1056 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.cpp;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		F9574C4906C94DA700142BFA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		F93937370A94FB6A00070A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9ED4C8B0630A72300DF4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93937310A94FAF700070A07;
+			remoteInfo = update_dyld_shared_cache;
+		};
+		F98C78D90F7C017F006257D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9ED4C8B0630A72300DF4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F2A5580F7AEE9800B7C9EB;
+			remoteInfo = dsc;
+		};
+		F9ED4CA60630A78A00DF4E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9ED4C8B0630A72300DF4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9ED4C970630A76000DF4E74;
+			remoteInfo = dyld;
+		};
+		F9ED4CA80630A78A00DF4E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9ED4C8B0630A72300DF4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9ED4C9E0630A76B00DF4E74;
+			remoteInfo = libdyld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F90CF2950E71D1FB000BF0F1 /* usr|local|include */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/local/include;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "usr|local|include";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F93AA9B30630AE8200301D9F /* usr|include|mach-o */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "/usr/include/mach-o";
+			dstSubfolderSpec = 0;
+			files = (
+				F93AA9A50630AE1E00301D9F /* dyld.h in usr|include|mach-o */,
+				F98D274D0AA79D7400416316 /* dyld_images.h in usr|include|mach-o */,
+			);
+			name = "usr|include|mach-o";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F93AA9B60630AEB100301D9F /* usr|local|include|mach-o */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "/usr/local/include/mach-o";
+			dstSubfolderSpec = 0;
+			files = (
+				F918691608B16D3500E0F9DB /* dyld-interposing.h in usr|local|include|mach-o */,
+				F93AA9A30630AE1E00301D9F /* dyld_gdb.h in usr|local|include|mach-o */,
+				F93AA9A40630AE1E00301D9F /* dyld_priv.h in usr|local|include|mach-o */,
+			);
+			name = "usr|local|include|mach-o";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F93AA9C20630AF0700301D9F /* usr|share|man|man1 */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				EF79A010070D293E00F78484 /* dyld.1 in usr|share|man|man1 */,
+			);
+			name = "usr|share|man|man1";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F93AA9C60630AF1F00301D9F /* usr|share|man|man3 */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man3;
+			dstSubfolderSpec = 0;
+			files = (
+				EF79A011070D295200F78484 /* dladdr.3 in usr|share|man|man3 */,
+				EF79A012070D295200F78484 /* dlclose.3 in usr|share|man|man3 */,
+				EF79A013070D295200F78484 /* dlerror.3 in usr|share|man|man3 */,
+				EF79A014070D295200F78484 /* dlopen.3 in usr|share|man|man3 */,
+				EF79A015070D295200F78484 /* dlsym.3 in usr|share|man|man3 */,
+				EF79A016070D295200F78484 /* dyld.3 in usr|share|man|man3 */,
+				F9E572020A66EF4A007D9BE9 /* dlopen_preflight.3 in usr|share|man|man3 */,
+			);
+			name = "usr|share|man|man3";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F9574CB206C95C0D00142BFA /* usr|include */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/include;
+			dstSubfolderSpec = 0;
+			files = (
+				F9574CB306C95C1B00142BFA /* dlfcn.h in usr|include */,
+			);
+			name = "usr|include";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F98C78D10F7C00EA006257D2 /* usr|local|include|mach-o */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "/usr/local/include/mach-o";
+			dstSubfolderSpec = 0;
+			files = (
+				F98C78F00F7C02E8006257D2 /* dsc_iterator.h in usr|local|include|mach-o */,
+			);
+			name = "usr|local|include|mach-o";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F9D238DD0A9E2FEE002B55C7 /* usr|share|man|man1 */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				F9D238DB0A9E2FD0002B55C7 /* update_dyld_shared_cache.1 in usr|share|man|man1 */,
+			);
+			name = "usr|share|man|man1";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		834A90AB0E1D85D600555761 /* ObjCLegacyAbstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjCLegacyAbstraction.hpp; sourceTree = "<group>"; };
+		834A90AC0E1D85D600555761 /* ObjCModernAbstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjCModernAbstraction.hpp; sourceTree = "<group>"; };
+		EF799FE9070D27BB00F78484 /* dyld.1 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.man; name = dyld.1; path = doc/man/man1/dyld.1; sourceTree = SOURCE_ROOT; };
+		EF799FEB070D27BB00F78484 /* dladdr.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dladdr.3; path = doc/man/man3/dladdr.3; sourceTree = SOURCE_ROOT; };
+		EF799FEC070D27BB00F78484 /* dlclose.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dlclose.3; path = doc/man/man3/dlclose.3; sourceTree = SOURCE_ROOT; };
+		EF799FED070D27BB00F78484 /* dlerror.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dlerror.3; path = doc/man/man3/dlerror.3; sourceTree = SOURCE_ROOT; };
+		EF799FEE070D27BB00F78484 /* dlopen.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dlopen.3; path = doc/man/man3/dlopen.3; sourceTree = SOURCE_ROOT; };
+		EF799FEF070D27BB00F78484 /* dlsym.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dlsym.3; path = doc/man/man3/dlsym.3; sourceTree = SOURCE_ROOT; };
+		EF799FF0070D27BB00F78484 /* dyld.3 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 30; name = dyld.3; path = doc/man/man3/dyld.3; sourceTree = SOURCE_ROOT; };
+		F906E2230639E96400B13DB2 /* dyld_debug.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = dyld_debug.c; path = src/dyld_debug.c; sourceTree = "<group>"; };
+		F913FAD90630A8AE00B7AE9D /* dyldAPIsInLibSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyldAPIsInLibSystem.cpp; path = src/dyldAPIsInLibSystem.cpp; sourceTree = "<group>"; };
+		F918691408B16D2500E0F9DB /* dyld-interposing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "dyld-interposing.h"; path = "include/mach-o/dyld-interposing.h"; sourceTree = "<group>"; };
+		F93937320A94FAF700070A07 /* update_dyld_shared_cache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = update_dyld_shared_cache; sourceTree = BUILT_PRODUCTS_DIR; };
+		F939373E0A94FC4700070A07 /* Architectures.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = Architectures.hpp; sourceTree = "<group>"; };
+		F939373F0A94FC4700070A07 /* CacheFileAbstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = CacheFileAbstraction.hpp; sourceTree = "<group>"; };
+		F93937400A94FC4700070A07 /* dyld_cache_format.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dyld_cache_format.h; sourceTree = "<group>"; };
+		F93937410A94FC4700070A07 /* FileAbstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = FileAbstraction.hpp; sourceTree = "<group>"; };
+		F93937430A94FC4700070A07 /* MachOFileAbstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = MachOFileAbstraction.hpp; sourceTree = "<group>"; };
+		F93937440A94FC4700070A07 /* MachOLayout.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = MachOLayout.hpp; sourceTree = "<group>"; };
+		F93937460A94FC4700070A07 /* update_dyld_shared_cache.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = update_dyld_shared_cache.cpp; sourceTree = "<group>"; };
+		F939F219078F1A2100AC144F /* dyld_debug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld_debug.h; path = "include/mach-o/dyld_debug.h"; sourceTree = "<group>"; };
+		F94DB9000F0A9B1700323715 /* ImageLoaderMachOClassic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoaderMachOClassic.cpp; path = src/ImageLoaderMachOClassic.cpp; sourceTree = "<group>"; };
+		F94DB9010F0A9B1700323715 /* ImageLoaderMachOClassic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoaderMachOClassic.h; path = src/ImageLoaderMachOClassic.h; sourceTree = "<group>"; };
+		F94DB9020F0A9B1700323715 /* ImageLoaderMachOCompressed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoaderMachOCompressed.cpp; path = src/ImageLoaderMachOCompressed.cpp; sourceTree = "<group>"; };
+		F94DB9030F0A9B1700323715 /* ImageLoaderMachOCompressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoaderMachOCompressed.h; path = src/ImageLoaderMachOCompressed.h; sourceTree = "<group>"; };
+		F95C95160E994796007B7CB8 /* MachOTrie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MachOTrie.hpp; sourceTree = "<group>"; };
+		F98935B90A9A412B00FB6228 /* MachOBinder.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = MachOBinder.hpp; sourceTree = "<group>"; };
+		F98935BA0A9A412B00FB6228 /* MachORebaser.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = MachORebaser.hpp; sourceTree = "<group>"; };
+		F98D274C0AA79D7400416316 /* dyld_images.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld_images.h; path = "include/mach-o/dyld_images.h"; sourceTree = "<group>"; };
+		F99EE6AE06B48D4200BF1992 /* dlfcn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dlfcn.h; path = include/dlfcn.h; sourceTree = "<group>"; };
+		F99EFC0D0EAD60E8001032B8 /* dyld_stub_binder.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = dyld_stub_binder.s; path = src/dyld_stub_binder.s; sourceTree = "<group>"; };
+		F9A221E60F3A6D7C00D15F73 /* dyldLibSystemGlue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dyldLibSystemGlue.c; path = src/dyldLibSystemGlue.c; sourceTree = "<group>"; };
+		F9AB709D0BA75730002F6068 /* dyldLibSystemInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyldLibSystemInterface.h; path = src/dyldLibSystemInterface.h; sourceTree = "<group>"; };
+		F9AC7E930B7BB67700FEB38B /* version.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B01E3D0739ABDE00CF981B /* dyld.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; name = dyld.exp; path = src/dyld.exp; sourceTree = SOURCE_ROOT; };
+		F9D238D90A9E19A0002B55C7 /* update_dyld_shared_cache.1 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.man; path = update_dyld_shared_cache.1; sourceTree = "<group>"; };
+		F9E572000A66EF41007D9BE9 /* dlopen_preflight.3 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = dlopen_preflight.3; sourceTree = "<group>"; };
+		F9ED4C980630A76000DF4E74 /* dyld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dyld; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ED4C9F0630A76B00DF4E74 /* libdyldapis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdyldapis.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ED4CC60630A7F100DF4E74 /* dyld_gdb.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyld_gdb.cpp; path = src/dyld_gdb.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CC70630A7F100DF4E74 /* dyld.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyld.cpp; path = src/dyld.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CC80630A7F100DF4E74 /* dyld.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld.h; path = src/dyld.h; sourceTree = SOURCE_ROOT; };
+		F9ED4CC90630A7F100DF4E74 /* dyldAPIs.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyldAPIs.cpp; path = src/dyldAPIs.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CCA0630A7F100DF4E74 /* dyldExceptions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = dyldExceptions.c; path = src/dyldExceptions.c; sourceTree = SOURCE_ROOT; };
+		F9ED4CCB0630A7F100DF4E74 /* dyldInitialization.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyldInitialization.cpp; path = src/dyldInitialization.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CCC0630A7F100DF4E74 /* dyldLock.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyldLock.cpp; path = src/dyldLock.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CCD0630A7F100DF4E74 /* dyldLock.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyldLock.h; path = src/dyldLock.h; sourceTree = SOURCE_ROOT; };
+		F9ED4CCE0630A7F100DF4E74 /* dyldNew.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = dyldNew.cpp; path = src/dyldNew.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CCF0630A7F100DF4E74 /* dyldStartup.s */ = {isa = PBXFileReference; fileEncoding = 30; indentWidth = 4; lastKnownFileType = sourcecode.asm; name = dyldStartup.s; path = src/dyldStartup.s; sourceTree = SOURCE_ROOT; tabWidth = 8; usesTabs = 1; };
+		F9ED4CD00630A7F100DF4E74 /* glue.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = glue.c; path = src/glue.c; sourceTree = SOURCE_ROOT; };
+		F9ED4CD10630A7F100DF4E74 /* ImageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoader.cpp; path = src/ImageLoader.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CD20630A7F100DF4E74 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ImageLoader.h; path = src/ImageLoader.h; sourceTree = SOURCE_ROOT; };
+		F9ED4CD30630A7F100DF4E74 /* ImageLoaderMachO.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoaderMachO.cpp; path = src/ImageLoaderMachO.cpp; sourceTree = SOURCE_ROOT; };
+		F9ED4CD40630A7F100DF4E74 /* ImageLoaderMachO.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ImageLoaderMachO.h; path = src/ImageLoaderMachO.h; sourceTree = SOURCE_ROOT; };
+		F9ED4CD50630A7F100DF4E74 /* stub_binding_helper.s */ = {isa = PBXFileReference; fileEncoding = 30; indentWidth = 4; lastKnownFileType = sourcecode.asm; name = stub_binding_helper.s; path = src/stub_binding_helper.s; sourceTree = SOURCE_ROOT; tabWidth = 8; usesTabs = 1; };
+		F9ED4CE80630A80600DF4E74 /* dyld_gdb.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld_gdb.h; path = "include/mach-o/dyld_gdb.h"; sourceTree = SOURCE_ROOT; };
+		F9ED4CE90630A80600DF4E74 /* dyld_priv.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld_priv.h; path = "include/mach-o/dyld_priv.h"; sourceTree = SOURCE_ROOT; };
+		F9ED4CEA0630A80600DF4E74 /* dyld.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = dyld.h; path = "include/mach-o/dyld.h"; sourceTree = SOURCE_ROOT; };
+		F9F2A5590F7AEE9800B7C9EB /* libdsc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdsc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F2A56E0F7AEEE300B7C9EB /* dsc_iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dsc_iterator.cpp; sourceTree = "<group>"; };
+		F9F2A56F0F7AEEE300B7C9EB /* dsc_iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsc_iterator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93937300A94FAF700070A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F2A5570F7AEE9800B7C9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF799FE7070D27BB00F78484 /* man */ = {
+			isa = PBXGroup;
+			children = (
+				EF799FE8070D27BB00F78484 /* man1 */,
+				EF799FEA070D27BB00F78484 /* man3 */,
+			);
+			name = man;
+			path = doc/man;
+			sourceTree = SOURCE_ROOT;
+		};
+		EF799FE8070D27BB00F78484 /* man1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF799FE9070D27BB00F78484 /* dyld.1 */,
+				F9D238D90A9E19A0002B55C7 /* update_dyld_shared_cache.1 */,
+			);
+			name = man1;
+			path = doc/man/man1;
+			sourceTree = SOURCE_ROOT;
+		};
+		EF799FEA070D27BB00F78484 /* man3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF799FEB070D27BB00F78484 /* dladdr.3 */,
+				EF799FEC070D27BB00F78484 /* dlclose.3 */,
+				EF799FED070D27BB00F78484 /* dlerror.3 */,
+				EF799FEE070D27BB00F78484 /* dlopen.3 */,
+				EF799FEF070D27BB00F78484 /* dlsym.3 */,
+				F9E572000A66EF41007D9BE9 /* dlopen_preflight.3 */,
+				EF799FF0070D27BB00F78484 /* dyld.3 */,
+			);
+			name = man3;
+			path = doc/man/man3;
+			sourceTree = SOURCE_ROOT;
+		};
+		F939373D0A94FC4700070A07 /* launch-cache */ = {
+			isa = PBXGroup;
+			children = (
+				F939373E0A94FC4700070A07 /* Architectures.hpp */,
+				F939373F0A94FC4700070A07 /* CacheFileAbstraction.hpp */,
+				F93937400A94FC4700070A07 /* dyld_cache_format.h */,
+				F93937410A94FC4700070A07 /* FileAbstraction.hpp */,
+				F93937430A94FC4700070A07 /* MachOFileAbstraction.hpp */,
+				F93937440A94FC4700070A07 /* MachOLayout.hpp */,
+				F98935BA0A9A412B00FB6228 /* MachORebaser.hpp */,
+				F98935B90A9A412B00FB6228 /* MachOBinder.hpp */,
+				F95C95160E994796007B7CB8 /* MachOTrie.hpp */,
+				834A90AB0E1D85D600555761 /* ObjCLegacyAbstraction.hpp */,
+				834A90AC0E1D85D600555761 /* ObjCModernAbstraction.hpp */,
+				F93937460A94FC4700070A07 /* update_dyld_shared_cache.cpp */,
+				F9F2A56E0F7AEEE300B7C9EB /* dsc_iterator.cpp */,
+				F9F2A56F0F7AEEE300B7C9EB /* dsc_iterator.h */,
+			);
+			path = "launch-cache";
+			sourceTree = "<group>";
+		};
+		F9ED4C870630A72200DF4E74 = {
+			isa = PBXGroup;
+			children = (
+				F9ED4CBB0630A7AA00DF4E74 /* src */,
+				F9ED4CC30630A7BE00DF4E74 /* doc */,
+				F9ED4CBE0630A7B100DF4E74 /* include */,
+				F9ED4C990630A76000DF4E74 /* Products */,
+				F939373D0A94FC4700070A07 /* launch-cache */,
+			);
+			sourceTree = "<group>";
+		};
+		F9ED4C990630A76000DF4E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED4C980630A76000DF4E74 /* dyld */,
+				F9ED4C9F0630A76B00DF4E74 /* libdyldapis.a */,
+				F93937320A94FAF700070A07 /* update_dyld_shared_cache */,
+				F9F2A5590F7AEE9800B7C9EB /* libdsc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9ED4CBB0630A7AA00DF4E74 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED4CC60630A7F100DF4E74 /* dyld_gdb.cpp */,
+				F9ED4CC70630A7F100DF4E74 /* dyld.cpp */,
+				F9ED4CC80630A7F100DF4E74 /* dyld.h */,
+				F9ED4CC90630A7F100DF4E74 /* dyldAPIs.cpp */,
+				F9ED4CCA0630A7F100DF4E74 /* dyldExceptions.c */,
+				F9AB709D0BA75730002F6068 /* dyldLibSystemInterface.h */,
+				F913FAD90630A8AE00B7AE9D /* dyldAPIsInLibSystem.cpp */,
+				F9ED4CCB0630A7F100DF4E74 /* dyldInitialization.cpp */,
+				F9ED4CCC0630A7F100DF4E74 /* dyldLock.cpp */,
+				F9ED4CCD0630A7F100DF4E74 /* dyldLock.h */,
+				F9ED4CCE0630A7F100DF4E74 /* dyldNew.cpp */,
+				F9ED4CCF0630A7F100DF4E74 /* dyldStartup.s */,
+				F99EFC0D0EAD60E8001032B8 /* dyld_stub_binder.s */,
+				F9ED4CD00630A7F100DF4E74 /* glue.c */,
+				F9ED4CD10630A7F100DF4E74 /* ImageLoader.cpp */,
+				F9ED4CD20630A7F100DF4E74 /* ImageLoader.h */,
+				F9ED4CD30630A7F100DF4E74 /* ImageLoaderMachO.cpp */,
+				F9ED4CD40630A7F100DF4E74 /* ImageLoaderMachO.h */,
+				F94DB9000F0A9B1700323715 /* ImageLoaderMachOClassic.cpp */,
+				F94DB9010F0A9B1700323715 /* ImageLoaderMachOClassic.h */,
+				F94DB9020F0A9B1700323715 /* ImageLoaderMachOCompressed.cpp */,
+				F94DB9030F0A9B1700323715 /* ImageLoaderMachOCompressed.h */,
+				F9ED4CD50630A7F100DF4E74 /* stub_binding_helper.s */,
+				F9B01E3D0739ABDE00CF981B /* dyld.exp */,
+				F9AC7E930B7BB67700FEB38B /* version.c */,
+				F918691408B16D2500E0F9DB /* dyld-interposing.h */,
+				F9A221E60F3A6D7C00D15F73 /* dyldLibSystemGlue.c */,
+				F906E2230639E96400B13DB2 /* dyld_debug.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F9ED4CBE0630A7B100DF4E74 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F98D274C0AA79D7400416316 /* dyld_images.h */,
+				F9ED4CE80630A80600DF4E74 /* dyld_gdb.h */,
+				F9ED4CE90630A80600DF4E74 /* dyld_priv.h */,
+				F939F219078F1A2100AC144F /* dyld_debug.h */,
+				F9ED4CEA0630A80600DF4E74 /* dyld.h */,
+				F99EE6AE06B48D4200BF1992 /* dlfcn.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		F9ED4CC30630A7BE00DF4E74 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				EF799FE7070D27BB00F78484 /* man */,
+			);
+			name = doc;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93937310A94FAF700070A07 /* update_dyld_shared_cache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93937340A94FB2900070A07 /* Build configuration list for PBXNativeTarget "update_dyld_shared_cache" */;
+			buildPhases = (
+				F939372F0A94FAF700070A07 /* Sources */,
+				F93937300A94FAF700070A07 /* Frameworks */,
+				F9D238DD0A9E2FEE002B55C7 /* usr|share|man|man1 */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98C78DA0F7C017F006257D2 /* PBXTargetDependency */,
+			);
+			name = update_dyld_shared_cache;
+			productName = update_dyld_shared_cache;
+			productReference = F93937320A94FAF700070A07 /* update_dyld_shared_cache */;
+			productType = "com.apple.product-type.tool";
+		};
+		F9ED4C970630A76000DF4E74 /* dyld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D8C7DD087B087300E93EFB /* Build configuration list for PBXNativeTarget "dyld" */;
+			buildPhases = (
+				F9ED4C950630A76000DF4E74 /* Sources */,
+			);
+			buildRules = (
+				F921D318070376B0000D1056 /* PBXBuildRule */,
+				F921D317070376A6000D1056 /* PBXBuildRule */,
+				F921D3160703769A000D1056 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = dyld;
+			productName = dyld;
+			productReference = F9ED4C980630A76000DF4E74 /* dyld */;
+			productType = "com.apple.product-type.tool";
+		};
+		F9ED4C9E0630A76B00DF4E74 /* libdyld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D8C7E1087B087300E93EFB /* Build configuration list for PBXNativeTarget "libdyld" */;
+			buildPhases = (
+				F9AC7E7E0B7BB3D300FEB38B /* create version.c */,
+				F9ED4C9C0630A76B00DF4E74 /* Sources */,
+				F93AA9B30630AE8200301D9F /* usr|include|mach-o */,
+				F9574CB206C95C0D00142BFA /* usr|include */,
+				F90CF2950E71D1FB000BF0F1 /* usr|local|include */,
+				F93AA9B60630AEB100301D9F /* usr|local|include|mach-o */,
+				F93AA9C20630AF0700301D9F /* usr|share|man|man1 */,
+				F93AA9C60630AF1F00301D9F /* usr|share|man|man3 */,
+				F918692408B16F6900E0F9DB /* install symlinks */,
+			);
+			buildRules = (
+				F921D31E070376F1000D1056 /* PBXBuildRule */,
+				F9574C4906C94DA700142BFA /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = libdyld;
+			productName = libdyld;
+			productReference = F9ED4C9F0630A76B00DF4E74 /* libdyldapis.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9F2A5580F7AEE9800B7C9EB /* dsc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F2A56B0F7AEEB100B7C9EB /* Build configuration list for PBXNativeTarget "dsc" */;
+			buildPhases = (
+				F9F2A5560F7AEE9800B7C9EB /* Sources */,
+				F9F2A5570F7AEE9800B7C9EB /* Frameworks */,
+				F98C78D10F7C00EA006257D2 /* usr|local|include|mach-o */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dsc;
+			productName = dsc;
+			productReference = F9F2A5590F7AEE9800B7C9EB /* libdsc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9ED4C8B0630A72300DF4E74 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F9D8C7E9087B087300E93EFB /* Build configuration list for PBXProject "dyld" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = F9ED4C870630A72200DF4E74;
+			productRefGroup = F9ED4C990630A76000DF4E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9ED4C920630A73900DF4E74 /* all */,
+				F9ED4C970630A76000DF4E74 /* dyld */,
+				F9ED4C9E0630A76B00DF4E74 /* libdyld */,
+				F93937310A94FAF700070A07 /* update_dyld_shared_cache */,
+				F9F2A5580F7AEE9800B7C9EB /* dsc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F918692408B16F6900E0F9DB /* install symlinks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "install symlinks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cd ${DSTROOT}/usr/local/lib/system\nln -sf libdyldapis.a libdyldapis_profile.a\nln -sf libdyldapis.a libdyldapis_debug.a\n";
+			showEnvVarsInLog = 0;
+		};
+		F9AC7E7E0B7BB3D300FEB38B /* create version.c */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "create version.c";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/version.c",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Developer/Makefiles/bin/version.pl ${ProjectName} > ${BUILT_PRODUCTS_DIR}/version.c\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F939372F0A94FAF700070A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93937470A94FC4700070A07 /* update_dyld_shared_cache.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9ED4C950630A76000DF4E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ED4CDF0630A7F100DF4E74 /* dyldStartup.s in Sources */,
+				F9ED4CDB0630A7F100DF4E74 /* dyldInitialization.cpp in Sources */,
+				F9ED4CD70630A7F100DF4E74 /* dyld.cpp in Sources */,
+				F9ED4CD90630A7F100DF4E74 /* dyldAPIs.cpp in Sources */,
+				F9ED4CDA0630A7F100DF4E74 /* dyldExceptions.c in Sources */,
+				F9ED4CD60630A7F100DF4E74 /* dyld_gdb.cpp in Sources */,
+				F9ED4CE00630A7F100DF4E74 /* glue.c in Sources */,
+				F9ED4CE10630A7F100DF4E74 /* ImageLoader.cpp in Sources */,
+				F9ED4CE30630A7F100DF4E74 /* ImageLoaderMachO.cpp in Sources */,
+				F9ED4CE50630A7F100DF4E74 /* stub_binding_helper.s in Sources */,
+				F9ED4CDE0630A7F100DF4E74 /* dyldNew.cpp in Sources */,
+				F99EFC0E0EAD60E8001032B8 /* dyld_stub_binder.s in Sources */,
+				F94DB9040F0A9B1700323715 /* ImageLoaderMachOClassic.cpp in Sources */,
+				F94DB9050F0A9B1700323715 /* ImageLoaderMachOCompressed.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9ED4C9C0630A76B00DF4E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F256360639DBCC00A7427D /* dyldLock.cpp in Sources */,
+				F913FADA0630A8AE00B7AE9D /* dyldAPIsInLibSystem.cpp in Sources */,
+				F906E2240639E96400B13DB2 /* dyld_debug.c in Sources */,
+				F9BA514B0ECE4F4200D1D62E /* dyld_stub_binder.s in Sources */,
+				F9AC7E940B7BB67700FEB38B /* version.c in Sources */,
+				F9A221E70F3A6D7C00D15F73 /* dyldLibSystemGlue.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F2A5560F7AEE9800B7C9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F2A5700F7AEEE300B7C9EB /* dsc_iterator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93937380A94FB6A00070A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93937310A94FAF700070A07 /* update_dyld_shared_cache */;
+			targetProxy = F93937370A94FB6A00070A07 /* PBXContainerItemProxy */;
+		};
+		F98C78DA0F7C017F006257D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F2A5580F7AEE9800B7C9EB /* dsc */;
+			targetProxy = F98C78D90F7C017F006257D2 /* PBXContainerItemProxy */;
+		};
+		F9ED4CA70630A78A00DF4E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9ED4C970630A76000DF4E74 /* dyld */;
+			targetProxy = F9ED4CA60630A78A00DF4E74 /* PBXContainerItemProxy */;
+		};
+		F9ED4CA90630A78A00DF4E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9ED4C9E0630A76B00DF4E74 /* libdyld */;
+			targetProxy = F9ED4CA80630A78A00DF4E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F93937350A94FB2900070A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = update_dyld_shared_cache;
+				VALID_ARCHS = "ppc i386";
+			};
+			name = Debug;
+		};
+		F93937360A94FB2900070A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(RC_ProjectSourceVersion)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				INSTALL_PATH = /usr/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = update_dyld_shared_cache;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = debugging;
+				VALID_ARCHS = "x86_64 i386";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F9D8C7DE087B087300E93EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+					x86_64,
+				);
+				BASE_ADDRESS_armv4t = 0x2fe00000;
+				BASE_ADDRESS_armv5 = 0x2fe00000;
+				BASE_ADDRESS_armv6 = 0x2fe00000;
+				BASE_ADDRESS_armv7 = 0x2fe00000;
+				BASE_ADDRESS_i386 = 0x8fe00000;
+				BASE_ADDRESS_ppc = 0x8fe00000;
+				BASE_ADDRESS_x86_64 = 0x7fff5fc00000;
+				CURRENT_PROJECT_VERSION = "$(RC_ProjectSourceVersion)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EXCEPTION_LIB_armv6 = "-lgcc_eh";
+				EXCEPTION_LIB_armv7 = "-lgcc_eh";
+				EXCEPTION_LIB_i386 = /usr/local/lib/dyld/libunwind.a;
+				EXCEPTION_LIB_ppc = /usr/local/lib/dyld/libunwind.a;
+				EXCEPTION_LIB_x86_64 = /usr/local/lib/dyld/libunwind.a;
+				EXPORTED_SYMBOLS_FILE = "$(SRCROOT)/src/dyld.exp";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DYLD_VERSION=$(RC_ProjectSourceVersion)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				HEADER_SEARCH_PATHS = (
+					./include,
+					"./launch-cache",
+				);
+				INSTALL_PATH = /usr/lib;
+				LIBC_OVERRIDES_iphoneos = "";
+				LIBC_OVERRIDES_macosx = "/usr/local/lib/system/libc-dyld.a";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					"$(BASE_ADDRESS_$(CURRENT_ARCH))",
+					"-lstdc++-static",
+					"$(LIBC_OVERRIDES_$(PLATFORM_NAME))",
+					"-nostdlib",
+					/usr/local/lib/system/libc.a,
+					/usr/local/lib/libCoreSymbolicationSharedWithDyld.a,
+					"$(EXCEPTION_LIB_$(CURRENT_ARCH))",
+					"-lgcc",
+					"-Wl,-e,__dyld_start",
+					"-Wl,-dylinker",
+					"-Wl,-dylinker_install_name,/usr/lib/dyld",
+				);
+				PER_ARCH_CFLAGS_ppc = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = dyld;
+				STRIPFLAGS = "-S";
+				UNSTRIPPED_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+				);
+			};
+			name = Debug;
+		};
+		F9D8C7E0087B087300E93EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BASE_ADDRESS_armv4t = 0x2fe00000;
+				BASE_ADDRESS_armv5 = 0x2fe00000;
+				BASE_ADDRESS_armv6 = 0x2fe00000;
+				BASE_ADDRESS_armv7 = 0x2fe00000;
+				BASE_ADDRESS_i386 = 0x8fe00000;
+				BASE_ADDRESS_ppc = 0x8fe00000;
+				BASE_ADDRESS_x86_64 = 0x7fff5fc00000;
+				CURRENT_PROJECT_VERSION = "$(RC_ProjectSourceVersion)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXCEPTION_LIB_armv6 = "-lgcc_eh";
+				EXCEPTION_LIB_armv7 = "-lgcc_eh";
+				EXCEPTION_LIB_i386 = /usr/local/lib/dyld/libunwind.a;
+				EXCEPTION_LIB_ppc = /usr/local/lib/dyld/libunwind.a;
+				EXCEPTION_LIB_x86_64 = /usr/local/lib/dyld/libunwind.a;
+				EXPORTED_SYMBOLS_FILE = "$(SRCROOT)/src/dyld.exp";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "DYLD_VERSION=$(RC_ProjectSourceVersion)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				HEADER_SEARCH_PATHS = (
+					./include,
+					"./launch-cache",
+				);
+				INSTALL_PATH = /usr/lib;
+				LIBC_OVERRIDES_iphoneos = "";
+				LIBC_OVERRIDES_macosx = "/usr/local/lib/system/libc-dyld.a";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					"$(BASE_ADDRESS_$(CURRENT_ARCH))",
+					"-lstdc++-static",
+					"$(LIBC_OVERRIDES_$(PLATFORM_NAME))",
+					"-nostdlib",
+					/usr/local/lib/system/libc.a,
+					/usr/local/lib/libCoreSymbolicationSharedWithDyld.a,
+					"$(EXCEPTION_LIB_$(CURRENT_ARCH))",
+					"-lgcc",
+					"-Wl,-e,__dyld_start",
+					"-Wl,-dylinker",
+					"-Wl,-dylinker_install_name,/usr/lib/dyld",
+				);
+				PER_ARCH_CFLAGS_ppc = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = dyld;
+				STRIPFLAGS = "-S";
+				UNSTRIPPED_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F9D8C7E2087B087300E93EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = ./include;
+				INSTALL_PATH = /usr/local/lib/system;
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = dyldapis;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		F9D8C7E4087B087300E93EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = ./include;
+				INSTALL_PATH = /usr/local/lib/system;
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = dyldapis;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F9D8C7E6087B087300E93EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = all;
+			};
+			name = Debug;
+		};
+		F9D8C7E8087B087300E93EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = all;
+			};
+			name = Release;
+		};
+		F9D8C7EA087B087300E93EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F9D8C7EC087B087300E93EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F9F2A55A0F7AEE9900B7C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = dsc;
+			};
+			name = Debug;
+		};
+		F9F2A55B0F7AEE9900B7C9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = dsc;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93937340A94FB2900070A07 /* Build configuration list for PBXNativeTarget "update_dyld_shared_cache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93937350A94FB2900070A07 /* Debug */,
+				F93937360A94FB2900070A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8C7DD087B087300E93EFB /* Build configuration list for PBXNativeTarget "dyld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8C7DE087B087300E93EFB /* Debug */,
+				F9D8C7E0087B087300E93EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8C7E1087B087300E93EFB /* Build configuration list for PBXNativeTarget "libdyld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8C7E2087B087300E93EFB /* Debug */,
+				F9D8C7E4087B087300E93EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8C7E5087B087300E93EFB /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8C7E6087B087300E93EFB /* Debug */,
+				F9D8C7E8087B087300E93EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8C7E9087B087300E93EFB /* Build configuration list for PBXProject "dyld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8C7EA087B087300E93EFB /* Debug */,
+				F9D8C7EC087B087300E93EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F2A56B0F7AEEB100B7C9EB /* Build configuration list for PBXNativeTarget "dsc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F2A55A0F7AEE9900B7C9EB /* Debug */,
+				F9F2A55B0F7AEE9900B7C9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9ED4C8B0630A72300DF4E74 /* Project object */;
+}

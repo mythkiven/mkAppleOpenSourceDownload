@@ -3,12 +3,13 @@ a clone of the Apple's website
 
 **This repository is a mirror image of the apple opensource website (opensource.apple.com) and contains all opensource code**
 
-The tarballs directory contains all the compressed backups. Since the size is more than 10GB, it is not uploaded. If you need all the source code, please contact me.
+The tarballs directory contains all the compressed backups. Since the size is more than 20GB, it is not uploaded('https://opensource.apple.com/tarballs/'). If you need all the source code, please contact me.
 
 
 eg:
 If you are looking for the source code for dyld-353.2.3, go to the `opensource.apple.com/source/dyld/dyld-353.2.3` directory.
 
+or Download source code from 'https://opensource.apple.com/tarballs/dyld'
 
 >The included source code is as follows
 
