@@ -1,0 +1,260 @@
+/* layout */
+html { background: #F2F2F2; }
+.grid2colb-box .boxbottom { background: url(/static/devimages/sdc_box_grid2colb_bgbottom.png) no-repeat; bottom:0; }
+
+#content.grid2colb-box .separator { background:transparent url(http://devimages.apple.com/safari/images/sdc_row_separator.png) no-repeat scroll 0 0; margin:0 -18px 0; padding:1.7em 18px; clear: both; }
+
+#content.grid2colb-box { background-image:url(/static/devimages/box_grid2cola_bg_white.png); }
+
+.overview h4 { margin:0 0 1em; }
+#content hr.separator + h4 { margin: -1em 0 1em; *margin-top:1em; }
+
+a.audio,
+ul.icons li.audio,
+ul.icons.audio li { background:url(http://devimages.apple.com/assets/elements/icons/12x12/audio.gif) no-repeat 0 .2em; }
+
+#header { width: 988px; height:86px; margin-bottom: .4em; background:url(/static/devimages/header.png) no-repeat 0 0; behavior:url(/global/scripts/lib/iepngfix.htc); }
+#header h2 a { height:52px; }
+#header h2, #header h2 a { float:left; margin:0 -2px; text-indent:-9999px; width:984px; }
+
+#header ul.login { margin-top: 1.2em; }
+
+#content .column.first h3 a, #content .column.first h4 a, #content .column.first h5 a { color:#08c; }
+#content .column.first { clear:both; }
+
+#content ul.nav li a { background: none; }
+#content p.intro { font-size: 12px; color:#333;}
+
+/* nav lists */
+#content ul.nav { margin:-1em -18px 1.6em; font-size:12px; line-height:1.3em; border-top:1px solid #e5e5e5; }
+#content ul.nav li { _display:inline; }
+
+#content ul.nav li a { display:block; padding:.8em 32px .8em 18px; color:#787c80; border-bottom:1px solid #e5e5e5; background:url(/static/devimages/nav_arrow.png) no-repeat 0 50%; _background-image:url(/static/devimages/nav_arrow.gif); }
+
+#content ul.nav li a:hover { color:#08c; text-decoration:none; background-position:-248px 50%; }
+
+#content ul.nav li.active a { color:#000; cursor:default; background-position:-496px 50%; }
+#content ul.nav li.down a { background-position:-744px 50%; }
+
+#content ul.nav li ul { display:none; margin:0 !important; padding:0; border-bottom:1px solid #e5e5e5; background-color:#f4f4f4; }
+#content ul.nav li.active ul { display:block; }
+
+#content ul.nav li ul li a { color:#797c80 !important; border:none; cursor:pointer !important; background:url(/static/devimages/nav_sub_arrow.png) no-repeat 0 50% !important; }
+#content ul.nav li ul li a:hover { color:#08c !important; cursor:pointer !important; background-position:50% 50% !important; }
+#content ul.nav li ul li.active a { color:#000 !important; cursor:default !important; background-position:100% 50% !important; }
+
+#content ul.nav li a { color:#000 !important; background-position:-496px 50% !important; }
+
+/* body.overview #content ul.icons li { padding-bottom:0 !important; } */
+
+/* sidebar */
+#content .sidebar img.right { margin:0 0 0 15px; }
+#content .sidebar img#mdp { margin:0 0 0 33px; }
+#content .sidebar img#forums { display:block; margin:0 auto; }
+#content .sidebar img#slbeta { display:block; margin:0px auto 20px; }
+#content .sidebar h5.sl { margin-bottom:0; }
+
+/* tabs */
+.box .boxheader .tabs { padding-top: 2px; }
+.overview.boxheader {margin-bottom:30px;}
+
+/* login warning */
+#content .msg.warn h3 { float:left; }
+#content .msg.warn .expandcontent { clear:both; }
+
+#content .msg.warn.expandable h4 { padding-bottom:1em; }
+#content .msg.warn.expandable a.hide { margin-left:10px; }
+#content .msg.expandable { padding-bottom:1em; }
+
+body.overview .msg p.left { margin:0 0 0 20px; }
+
+body.overview .msg.expandable { padding-bottom:1em; }
+body.overview .msg.expandable h4 { padding:.6em 0 0; font-size:12px; font-weight:normal; color:#797c80; }
+body.overview .msg.expandable a.expandlink { display:none; padding-left:0; color:#08c; font-size:12px; }
+body.overview .hasjs .msg.expandable a.expandlink { display:inline; }
+body.overview .msg.expandable a.expandlink:hover { text-decoration:underline; }
+body.overview .msg.expandable div.expandcontent { padding-left:0; }
+body.overview .msg.expandable div.expandcontent p { margin-bottom:0; padding-bottom:1em; }
+body.overview .msg p.clear {font-size:11px;}
+body.overview a#sldclink { color:#ccc; }
+body.overview a.more.right { display:block; margin:0 0 1.6em; }
+
+/* codingheadstarts */
+body.codingheadstarts #content p.intro { color:#797C80; font-size:18px; font-weight:normal; line-height:1.3em; margin:-0.8em 0 2em 0; }
+body.codingheadstarts #content h1 { margin:15px 0; }
+body.codingheadstarts #content h2 { margin-bottom:18px; }
+body.codingheadstarts #content .grid3col p { margin-left:55px; margin-bottom:20px; }
+body.codingheadstarts #content .grid2col { border-top:1px solid #CCCCCC; font-size:11px; line-height:18px; margin-bottom:18px; padding-top:30px; }
+body.codingheadstarts #content .callout { padding-top:30px; border-top:1px solid #ccc; }
+body.codingheadstarts #content .callout h3 { margin-bottom:0.6em; }
+body.codingheadstarts #content .callout.headstarts a.viewvid { display:inline; padding:1px 0pt 2px 20px; background:url(http://devimages.apple.com/main/images/aqua/arrow_play.gif) no-repeat left 1px; }
+body.codingheadstarts #content .callout.headstarts a.dwnarw { display:inline; margin-left:20px; padding:0 0 0 15px; background:url(http://devimages.apple.com/images/leopard/icon_download.gif) no-repeat left 1px; }
+body.codingheadstarts #content .callout { margin-bottom:18px; border-top:1px solid #CCCCCC; padding-top:30px; font-size:11px; line-height:18px; border: none !important; background: none; }
+body.codingheadstarts #content .overlaydescription,
+body.codingheadstarts #content .overlayposter { display: none; }
+
+#content .selfclear { margin-bottom:1em; padding-top:1em; border-bottom:1px solid #e5e5e5; }
+#content .selfclear div.right { margin-top:0.5em; }
+#content .selfclear ul { margin-bottom:0.8em; }
+
+#content .downloads { margin-bottom:1.6em; }
+#content .downloads .download .right { padding:.8em 0; }
+#content .downloads span.filename,
+#content .downloads a { display: block; float: left; width: 189px; padding-right:18px; white-space:normal; }
+#content .downloads li { zoom:1; }
+#content .downloads li:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#content .downloads ul.icons li { padding-bottom:0; }
+
+#content #getting-started h4 { margin: 1.5em 0; }
+#content #getting-started h5 { margin-left: 25px; }
+#content #getting-started p { margin-left: 25px; }
+#content #getting-started img { margin-left: 25px; }
+#content #getting-started .image.image45 img.left { margin-left: -35px; }
+
+#content .resources .image { margin-bottom:.6em; padding-bottom:.8em; border-bottom:1px solid #e5e5e5; }
+#content .resources .image p { margin-bottom:0; }
+#content .resources .image img.left { margin-bottom:0; }
+#content .resources div.image.image45 {  }
+#content .resources:last-child div.image:last-child { margin-bottom:1.6em; padding-bottom: 1.1em; border:none; }
+#content .resources span { color: #666; }
+
+#content .column { padding-bottom: 0; }
+#content .column.first .resources div.image h5 { padding: 0.2em 0 0; }
+#content .column.last .resources div.image h5 { padding:0; }
+
+#content .grid2col.doclinks { padding-left: 25px; }
+#content .grid2col.doclinks .last.column { padding-top: 2em; }
+
+#content ul.featured { margin-top:17px; }
+#content ul.featured li.html span { display:block; }
+#content ul.featured li.html {margin-bottom:1.5em;}
+
+#content .bc ul { margin-bottom: 0; }
+#content .bc li { display: inline; font-size: 12px }
+
+#content h3.underline { padding-bottom: .9em; }
+
+#content .grid2col ul.icons img.left { margin: 0; }
+
+#content .featuredtech li span { display: block; margin-top: .1em; color: #666; }
+
+/* articles */
+body.article #container { background:none; }
+
+body.article .clear { clear:both; }
+
+body.article #resources { margin-bottom:-10px; }
+
+body.article .callout { margin-bottom:1.6em; padding:1.6em 18px 1px; background:#fff; border:1px solid #e1e1e1; border-top:1px solid #f5f5f5; border-bottom:1px solid #c4c4c4; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -khtml-border-radius:5px; -o-border-radius:5px; box-shadow:0 1px 2px rgba(0, 0, 0, .2); -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -khtml-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -o-box-shadow:0 1px 2px rgba(0, 0, 0, .2); }
+body.article .callout.gradient { background:url(/static/devimages/callout_gradient.png) repeat-x 0 100%; }
+body.article .callout.inset { border:1px solid #dcdcdc; border-width:2px 1px 1px; background:#e7e9ef url(/static/devimages/message_bg.png) repeat-x 0 0; box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -khtml-box-shadow:none; -o-box-shadow:none; }
+body.article .callout .header { margin:-1.6em -18px 1em; padding:1em 18px; background:url(/static/devimages/box_header_bg.png) repeat-x 0 100%; _background-image:url(/static/devimages/box_header_bg.gif); }
+body.article .callout ul.spaced { margin: 18px 0; font-size: 11px; }
+
+
+body.article #content p.intro { font-size: 12px; }
+ 
+body.article .column.last div { margin-bottom: -4px; }
+
+body#prerelease #content .msg.expandable { margin-bottom:30px; }
+body#prerelease #content .box .boxheader { margin-bottom:25px !important; }
+body#prerelease #content .column .image.image100 { padding-top:1em; }
+body#prerelease #content .selfclear { border-top:0; }
+body#prerelease h1 { margin-top:25px; }
+body#prerelease #content.grid2colb .column.last { margin-bottom:1em; }
+body#prerelease #content.grid2colb .column.first.grid2col .column.last h4.underline + ul.icons.featured + h4.underline { margin-top:-1.2em; }
+body#prerelease #content.grid2colb .column.first.grid2col .column.last h4.underline + ul.icons.featured + h4.underline + p { margin-bottom:30px; }
+body#prerelease .box .boxheader .tabs ul li.active a { cursor:pointer !important; }
+
+/* promos */
+#promofooter4 #promos4 { width:984px; margin:0; padding:0; background: url(/static/devimages/promo4_capbottom_nogradient.png) no-repeat 0 100% !important; zoom: 1; _background-image: url(http://devimages.apple.com/wwdc/images/promofooter_bottom20090324.gif); }
+#promofooter4 #promos4 li.promo { min-height: 22.5em; _height: 19.5em; }
+#promofooter4 #promos4 li.promo { font-size: .85em; }
+#promofooter4 #promos4 li.promo h3 { font-size:12px; }
+#promofooter4 #promos4 li.promo p { margin-left:10px; padding: 0 5px; font-size: 11px; line-height: 1.4em; color: #777777; }
+#promofooter4 #promos4 li.promo a.image { height: 224px; }
+#promofooter4 #promos4 li.promo a.more + a.more { padding-left:5px; }
+#promofooter4 #promos4 li.promo a.nohover { color:#777777 !important; }
+#promofooter4 #promos4 li.promo p a.more { position:relative; z-index:101; padding-left:0; padding-right:9px; } 
+#promofooter4 #promos4 li.promo p a.more:hover { text-decoration:underline !important; }
+#promofooter4 #promos4 a.promo_header { position:relative; z-index:102; display:block; margin:1.7em 0 0 15px; font-size:11px; font-weight:800; color:#000 !important; cursor:pointer; }
+#promofooter4 #promos4 a.promo_header:hover { color: #08c !important; }
+
+/* sl overview page */
+#sl-overview #main #content { padding:6px 62px 5em !important; }
+#sl-overview #main #content #hero { padding:5.9em 60px; margin:0 -60px; background:transparent url(/static/devimages/overview_topbg.png) 0 0 repeat-x; }
+#sl-overview #main #content #hero .topright { position:absolute; top:1px; right:2px; }
+#sl-overview #main #content #hero h1 { padding:0; line-height:1.5em; text-indent:-9999px; background:transparent url(/static/devimages/overview_title.png) 0 0 no-repeat; }
+#sl-overview #main #content #hero p.intro { width:525px; line-height:1.5em; font-size:14px; color:#797C80; }
+
+#sl-overview #main #content .grid4col { margin-top:3.2em; }
+#sl-overview #main #content .grid4col .column { width:21.7% !important; float:left !important; margin-left:4.2%; padding:0; height:auto; }
+#sl-overview #main #content .grid4col .column.first { margin-right:0 !important; }
+#sl-overview #main #content .grid4col .column.last { margin-left:4.2% !important; }
+#sl-overview #main #content .grid4col .column .icon { min-height:7.4em; }
+#sl-overview #main #content .grid4col .column img { display:block; margin:0 auto; clear:both; }
+#sl-overview #main #content .grid4col .column p { color:#696969; }
+#sl-overview #main #content .grid4col .column p:last-of-type { margin-bottom:0; }
+
+#sl-overview #main #content .feature { width:92.8%; margin-top:2.5em; padding:1.2em 30px 2.3em; background:#f3f5f6; border-top:2px solid #dcdcdc; border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; -o-border-radius:5px; }
+#sl-overview #main #content .feature h3 { margin-top:1.3em; }
+
+
+.sl #main #content .sidebar h2 { background:transparent url(/static/devimages/sl_technologies_nav_header.png) no-repeat; text-indent:-9999px;}
+.sl #main #content .column.last p.intro { color:#666; clear:both; margin-bottom:4em; }
+
+.sl #main #content #sl-pagenav { width:99.5%; border-top:1px solid #DBDBDB; clear:both; font-size:12px; height:17px; margin:0; padding-top:1.5em; }
+.sl #main #content #sl-pagenav:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
+.sl #main #content #sl-pagenav .column { margin-bottom:1.6em; padding:0; width:48% !important; }
+.sl #main #content #sl-pagenav .previous { clear:both; text-align:left; }
+.sl #main #content #sl-pagenav .previous .arrow { background:transparent url(http://devimages.apple.com/iphone/program/images/pagenav_arrowleft.gif) no-repeat scroll 0 0.1em; color:#0089CF; padding-left:20px; padding-right:0; }
+.sl #main #content #sl-pagenav .next { text-align:right; }
+.sl #main #content #sl-pagenav .next .arrow { background:transparent url(http://devimages.apple.com/iphone/program/images/pagenav_arrowright.gif) no-repeat scroll 100% 0.1em;
+padding-right:20px; }
+
+/* gcd page */
+#gcd #main #content .column.last .left { margin-bottom:.7em; }
+#gcd #main #content .column.last .left + .left { margin-top:1em; }
+#gcd #main #content .column.last p.intro + .right { margin:2.2em 0 0 15px; }
+#gcd #main #content .column.last #os { margin-bottom:5em; }
+#gcd #main #content .column.last .right.more { margin-top:1.6em; margin-left:0; }
+#gcd #main #content .column.last .right.more + .right { margin:2px 10px 25px 10px; }
+
+/* 64-Bit page */
+#sixtyfourbit #main #content .column.last #faster { margin:-15px 0 16px 20px; }
+#sixtyfourbit #main #content .column.last #security { margin:2px 0 16px 20px; }
+#sixtyfourbit .overlaypanel  .overlaygallerythumbs { display:none; }
+#sixtyfourbit .overlaypanel  .overlayPanelShadowImage { display:none !important; }
+#sixtyfourbit .overlaypanel  .overlaygallery .overlaygalleryswap .overlaygallerycontent img { width:1003px; height:655px; }
+#sixtyfourbit .overlaypanel  .overlaygallery .overlaygalleryswap { border:none; }
+#sixtyfourbit .overlaypanel  .closeButtonContainer { top:5px; left:20px; }
+
+/* Open CL page */
+#opencl #main #content .column.last #gpu { margin-right:22px; }
+#opencl #main #content .column.last #architecture { margin:2px 0 16px 20px; }
+#opencl #main #content .column.last a.more:last-of-type { line-height:55px; }
+#opencl #main #content .column.last #openclpdf { margin:2px 10px 16px 0; }
+
+/* Quicktime X page */
+#quicktime #main #content .column.last #formats { margin:-9px 0 16px 24px; }
+#quicktime #main #content .column.last #http { margin:6px 34px 16px 0; }
+#quicktime #main #content .column.last #faster { margin:-5px 5px 16px 10px; }
+
+/* Static Analysis page */
+#static #main #content .column.last #xcode { margin:2px 0 13px 24px; }
+
+/* sl page sidebar */
+.sl #main #content .column.first.sidebar .callout.gradient { width:189px; padding:1em 15px 0 !important; }
+.sl #main #content .column.first.sidebar .callout.gradient h3 { margin-bottom:0; }
+.sl #main #content .column.first.sidebar .callout.gradient p { line-height:1.5em; }
+.sl #main #content .column.first.sidebar .callout.gradient p:last-of-type { margin-bottom:1em; }
+.sl #main #content .column.first.sidebar .callout.gradient a.more {  }
+.sl #main #content .column.first.sidebar .callout.gradient img { display:block; margin:-1em auto 1em; }
+
+/* sl page promos */
+.sl #promofooter4 { margin:12px 0 !important; padding-top:17px !important; background:transparent url(/static/devimages/promofooter_top.png) 0 0 no-repeat !important; }
+.sl #promofooter4 #promos4 { background:transparent url(/static/devimages/promofooter_bottom.png) 0 100% no-repeat !important; }
+.sl #promofooter4 li.promo { min-height:15.3em !important; }
+.sl #promofooter4 li.promo h3 { margin:0 0 0 18px !important; }
+.sl #promofooter4 li.promo a.image { height:170px !important; }
+.sl #promofooter4 li.promo p { margin-left:3px !important; }

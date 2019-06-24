@@ -1,0 +1,10 @@
+.script { display:block; }
+.noscript { display:none; }
+
+/* expand/collapse swapper **/
+.expandlabel { padding-left:1.2em; cursor:pointer; color:#366088; background:url(/static/devimages/expand.gif) no-repeat 0 -126px; }
+.expandlabel:hover { text-decoration:underline; }
+.expandlabel.closed { background-position:0 3px; }
+
+div.expandcontent { display:none; overflow:hidden; padding-left:1.2em; }
+.hasjs div.expandcontent { display:block; }

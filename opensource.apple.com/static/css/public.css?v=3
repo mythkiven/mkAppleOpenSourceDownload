@@ -1,0 +1,258 @@
+#container #header {
+ -webkit-border-radius: 5px;
+ background: transparent url(/static/images/dark_bg.png) repeat-x scroll 0% 100%;
+ -moz-border-radius: 5px;
+ -webkit-box-shadow: rgba(141, 151, 173, 0.5) 1px 1px 1px;
+ -moz-box-shadow: rgba(141, 151, 173, 0.5) 1px 1px 1px;
+ height: 32px;
+ position: relative;
+ margin: 7px -3px 25px -1px;
+ width: 960px;	    
+ padding: 9px 0px 17px 20px;
+ font-size: 0.9em;
+}
+
+#container #header.license-header {
+	   margin-bottom: 0px;
+}
+
+#content a {
+  color: rgb(54, 96, 136);
+}
+
+#content .sidebar a {
+	 color: black;
+}
+
+#content a:hover {
+	 text-decoration: none;
+	 color: rgb(0, 136, 204);
+}
+
+#container #header > div {
+ float: left;
+}
+
+.boxheader h2 div {
+	   float: left;
+	   top: 30%;
+	   cursor: pointer;
+}	   
+
+.boxheader h2 div:hover {
+	   color: rgb(0, 136, 204);
+}
+
+.project-updated {
+	   font-size: 1.2em;
+	   width: 11px;
+}
+
+div.project-name {
+	   width: 400px;
+}
+
+td.project-name {
+	   width: 400px;
+}
+
+.project-licenses {
+	   width: 160px;
+	   text-align: center;
+}
+
+.project-downloads {
+	   width: 100px;
+	   text-align: center;
+}
+
+div.project-downloads {
+		      text-align: right;
+}
+
+.disc-arrow {
+	    height: 8px;
+	    width: 8px;
+	    padding-left: 10px;
+	    background-position-x: 0%;
+	    background-position-y: 50%;	
+	    background-repeat: no-repeat;
+}
+
+.disc-arrow-open {
+		   background-image: url(/static/images/disc-open.png);
+}
+
+.disc-arrow-closed {
+		   background-image: url(/static/images/disc-closed.png);
+}
+
+#content {
+	 position: relative;
+}
+
+#content .section {
+			  padding-left: 10px;
+}
+
+#content img.left {
+	 margin-right: 5px;
+	 padding-right: 5px;
+}
+
+.release-list-terms {
+		 margin-top: 40px;
+		 font-size: 10px;
+}
+
+.license-terms {
+	       width: 680px;
+}
+
+#content .release-sublist {
+	      padding-left: 40px;
+	      margin-bottom: 5px;
+}
+
+.release-list-button {
+		cursor: pointer;
+		font-weight: bold;
+		padding-left: 25px;
+}
+
+.release-list {
+	      float: left;
+	      top: 0%;
+	      width: 15%;
+	      min-width: 100px;
+	      min-height: 300px;
+	      vertical-align: top;
+	      margin-right: 0px;
+	      margin-left: 0px;
+	      padding-left: 0px;
+	      padding-right: 65px;
+}
+
+.release-list .icon {
+	      margin-left: 0px;
+}
+
+.osslib {
+	min-height: 140px;
+}
+
+.osslib .osslibcolumn .icons.doc {
+	   padding-bottom: 1px;
+}	   
+
+.osslib-list .osslibcolumn.column.first {
+	       margin-left: 0px !important;
+	       width: 30%;
+}
+
+.osslib-list .osslibcolumn.column.middle {
+			    margin-left: 40px;
+			    width: 30%;
+}
+
+.osslib-list .osslibcolumn.column.last {
+		    margin-right: 0px;
+		    width: 30%;
+}
+
+.sidebar-header {
+		margin-bottom: 10px;		
+}
+
+#apple-logo-text {
+		 text-shadow: rgb(100, 100, 100) 0px 2px 3px;
+		 color: black;
+		 font-size: 28px;
+		 #font-weight: bold;
+		 padding-left: 20px;
+}
+
+#apple-logo {
+	    height: 36px;
+}
+
+#adc-logo {
+	  height: 40px;
+	  float: right;
+}
+
+.other-logo {
+	    height: 44px;
+	    float: right;
+}	    
+
+#macosforge-logo {
+		 height: 25px;
+		 float: right;
+}
+
+.sidebar h5 {
+	 float: left;
+	 margin-bottom: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+}
+
+.sidebar p {
+	 margin-top: 30px;
+}
+
+.download-icon, .download-icon img   {
+	       height: 20px;
+}
+
+table#project-list {
+ width: 100%;		  
+}
+
+#project-list th {
+ font-weight: bold;
+ font-size: 1.4em;
+}
+
+#project-list td {
+ font-size: 1.1em;	     
+ padding-bottom: 1px;
+ padding-top: 1px;
+}
+
+#project-list-header {
+ border-bottom: thin gray ridge;
+}
+
+td.project-right-space {
+	width: 30px;	     
+}
+
+.project-row:hover {
+		   background-color: #dddddd;
+}
+
+td.newproject {
+	      font-weight: bold;
+}
+
+#project-list-header th:hover {
+		     	      cursor: pointer;
+			      color: rgb(54, 96, 136);
+}		     
+
+#project-list .project-updated {
+		   text-align: center;
+		   font-weight: bold;
+		   font-size: 1.2em;
+}
+
+#project-list .project-licenses, #project-list .project-downloads {
+	      text-align: center;
+}
+
+pre#license-text {
+		 border: 0px;
+		 background: none;
+}
