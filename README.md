@@ -4,6 +4,8 @@ You can search and download the source code on "opensource.apple.com" based on k
 
 ![](https://github.com/mythkiven/tmp/blob/master/resource/img/python/mkAppleOpenSourceDownload.png)
 
+**Download official source directly from "https://opensource.apple.com/"**
+
 ### Installation：
 
 ```
