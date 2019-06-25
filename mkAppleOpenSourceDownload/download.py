@@ -21,9 +21,15 @@ class mkADownload():
                 return os.path.join(currentPath, path)
         else:
             return path
+    def handleword(self,word):
+        if(word.lower() =='corefoundation'):
+            return 'CF'
+        return word
 
     def download(self,word,path):
+        word = self.handleword(word)
         print('>> Search keyword: '+word+'..')
+        
         baseuri = 'https://opensource.apple.com/tarballs/'
         uri = baseuri
         result = requests.get(baseuri,timeout=120)

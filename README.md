@@ -17,10 +17,13 @@ pip install --upgrade mkAppleOpenSourceDownload
 ### Usage：
 
 ```
-$ aosdownload dyld
+$ aosdownload 'dyld'
 # or
-$ aosdownload dyld  -p '~/runtime'
+$ aosdownload 'CoreFoundation'  -p '~/runtime'
 ```
+
+
+- [swift-corelibs-libdispatch](https://github.com/apple/swift-corelibs-libdispatch/tree/master/src)
 
 ### SourceCode:
 
