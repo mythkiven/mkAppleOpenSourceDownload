@@ -11,14 +11,14 @@ You can search and download the source code on "opensource.apple.com" based on k
 ```
 $ pip install mkAppleOpenSourceDownload
 # update
-pip install --upgrade mkAppleOpenSourceDownload
+$ pip install --upgrade mkAppleOpenSourceDownload
 ```
 
 ### Usage：
 
 ```
-$ aosdownload 'dyld'
-# or
+$ aosdownload dyld
+$ aosdownload 'objc'
 $ aosdownload 'CoreFoundation'  -p '~/runtime'
 ```
 
