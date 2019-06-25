@@ -1,6 +1,6 @@
 # mkAppleOpenSourceDownload
 
-You can download the corresponding source code from "opensource.apple.com" according to the specified word (support for fuzzy matching).
+You can search and download the source code on "opensource.apple.com" based on keywords
 
 ![](https://github.com/mythkiven/tmp/blob/master/resource/img/python/mkAppleOpenSourceDownload.png)
 
@@ -8,6 +8,8 @@ You can download the corresponding source code from "opensource.apple.com" accor
 
 ```
 $ pip install mkAppleOpenSourceDownload
+# update
+pip install --upgrade mkAppleOpenSourceDownload
 ```
 
 ### Usage：
