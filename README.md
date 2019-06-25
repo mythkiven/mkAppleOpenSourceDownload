@@ -1,17 +1,26 @@
-# opensource_apple_mirror
-a clone of the Apple's website
+# mkAppleOpenSourceDownload
 
-**This repository is a mirror image of the apple opensource website (opensource.apple.com) and contains all opensource code**
+You can download the corresponding source code from "opensource.apple.com" according to the specified word (support for fuzzy matching).
 
-The tarballs directory contains all the compressed backups. Since the size is more than 20GB, it is not uploaded('https://opensource.apple.com/tarballs/'). If you need all the source code, please contact me.
+![](https://github.com/mythkiven/tmp/blob/master/resource/img/python/mkAppleOpenSourceDownload.png)
 
+### Installation：
 
-eg:
-If you are looking for the source code for dyld-353.2.3, go to the `opensource.apple.com/source/dyld/dyld-353.2.3` directory.
+```
+$ pip install mkAppleOpenSourceDownload
+```
 
-or Download source code from 'https://opensource.apple.com/tarballs/dyld'
+### Usage：
 
->The included source code is as follows
+```
+$ aosdownload dyld
+# or
+$ aosdownload dyld  -p '~/runtime'
+```
+
+### SourceCode:
+
+>Included source code is as follows
 
 ```
 │   ├── Apple16X50Serial

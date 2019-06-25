@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import argparse
+import sys
+import re
+import os
+from mkAppleOpenSourceDownload.download import mkADownload
+
+currentPath = os.path.abspath('.')
+
+def main():
+    parser = argparse.ArgumentParser(description='You can download the corresponding source code from "opensource.apple.com" according to the specified word (support for fuzzy matching).')
+    parser.add_argument('text',help='The name of the Apple source you want to download.')
+    parser.add_argument('-p', '--path', action='store',dest='save_path',default=currentPath,help='Path to save the file')
+
+    args = parser.parse_args()
+    if args.text:
+        mkADownload().download(word=args.text, path=args.save_path)
+    else:
+        print('You can download the corresponding source code from "opensource.apple.com" according to the specified word (support for fuzzy matching).')
+if __name__ == '__main__':
+    main()
+
