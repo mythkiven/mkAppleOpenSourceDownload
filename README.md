@@ -23,10 +23,6 @@ $ aosdownload 'CoreFoundation'  -p '~/runtime'
 ```
 
 
-- [swift-corelibs-libdispatch](https://github.com/apple/swift-corelibs-libdispatch/tree/master/src)
-- [lldb](https://github.com/llvm-mirror/lldb)
-
-
 ### SourceCode:
 
 >Included source code is as follows
